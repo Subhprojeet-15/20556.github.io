@@ -1,0 +1,196 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://source.unsplash.com/random');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  animation: backgroundAnimation 20s ease-in-out infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url('https://images.unsplash.com/photo-1477952214304-4d4f0a63d82b');
+  }
+  25% {
+    background-image: url('https://images.unsplash.com/photo-1504610926078-a1611febcad6');
+  }
+  50% {
+    background-image: url('https://images.unsplash.com/photo-1496664444920-28d5d4411e56');
+  }
+  75% {
+    background-image: url('https://images.unsplash.com/photo-1514989940723-e8e51635a3c8');
+  }
+  100% {
+    background-image: url('https://images.unsplash.com/photo-1545167622-0bcacb36087c');
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 20%;
+}
+
+h1 span {
+  font-size: 3rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+ 
+h1 span {
+  color: #f6c90e;
+}
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"] {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  padding: 0 2rem;
+  background-color: #333;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  color: #2ecc71;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/random');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  animation: backgroundAnimation 20s ease-in-out infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url('https://source.unsplash.com/random');
+  }
+  25% {
+    background-image: url('https://source.unsplash.com/random/?nature');
+  }
+  50% {
+    background-image: url('https://source.unsplash.com/random/?architecture');
+  }
+  75% {
+    background-image: url('https://source.unsplash.com/random/?technology');
+  }
+  100% {
+    background-image: url('https://source.unsplash.com/random/?food');
+  }
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+.hero button {
+  margin-top: 2rem;
+}
+.about {
+  background-color: #fff;
+  padding: 4rem 2rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #333;
+}
+
+.game img {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.game h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.game p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 2rem;
+}
